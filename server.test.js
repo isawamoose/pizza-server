@@ -22,7 +22,7 @@ test('create and get a store', async () => {
 });
 
 test('update a store', async () => {
-  await request(app).post('/store/orem');
+  await request(app).post('/api/store/orem');
   await request(app)
     .put('/api/store/orem')
     .send({ manager: 'joe' })
