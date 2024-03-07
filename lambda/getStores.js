@@ -3,6 +3,7 @@ export const handler = async () => {
     store: [
       { name: 'San Diego', date: '3/6/2024, 2:47:16 PM' },
       { name: 'Springdale', date: '3/6/2024, 2:47:21 PM' },
+      { name: 'Default Pizza Server', date: '3/6/2024, 2:47:21 PM' },
     ],
   };
   const response = {
