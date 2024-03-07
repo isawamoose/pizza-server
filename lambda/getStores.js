@@ -1,4 +1,4 @@
-export const handler = async (event) => {
+export const handler = async () => {
   const body = {
     store: [
       { name: 'San Diego', date: '3/6/2024, 2:47:16 PM' },
